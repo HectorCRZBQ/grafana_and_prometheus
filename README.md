@@ -2,6 +2,8 @@
 
 Dentro de una maquina virtual de Azure, incorporar dentro de Grafana y Prometheus  que Nginx nos redirija a la pagina personal (https://hectorcrzbq.github.io/webpage/).
 
+**Video de ayuda**: https://youtu.be/PCJwJpbln6Q?si=otLgHfmGyHEm4CVv
+
 1.	Abrimos una terminal e introducimos el siguiente comando **cd C:\Users\hecto\azure** para acceder a la ubicación de la clave
 2.	Ejecutamos el comando **ssh -i myVm_key.pem azureuser@172.210.148.251** donde definimos donde esta la **clave privada de acceso a la maquina virtual** con el nombre **myVm_key.pem** y la dirección IP publica que es **172.210.148.251** 
 3.	Descargamos Docker en la VM
